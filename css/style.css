@@ -27,10 +27,10 @@ h2{
 }
 
 p{
-    color: var(--color-text);
-}
-.p1{
     color: var(--color-text2);
+}
+span{
+    color: var(--color-text);
 }
 
 .head{
@@ -62,4 +62,10 @@ a{
     width: 13.2rem;
     padding: 1.2rem 2rem;
     margin-bottom: 3.5rem;
+}
+
+.section{
+    display: grid;
+    align-content: start;
+    grid-template-columns: repeat(2, 1fr);
 }
