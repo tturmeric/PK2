@@ -61,11 +61,16 @@ a{
     background-color: var(--color-text);
     width: 13.2rem;
     padding: 1.2rem 2rem;
-    margin-bottom: 3.5rem;
+    margin-top: 5rem;
 }
 
 .section{
-    display: grid;
-    align-content: start;
-    grid-template-columns: repeat(2, 1fr);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.77rem;
+}
+
+.img{
+
 }
